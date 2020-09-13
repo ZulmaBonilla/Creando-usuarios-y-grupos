@@ -1,0 +1,21 @@
+print("Crear un  grupo")
+print("Codigo: groupadd nombre-grupo ")
+nombregrupo = input()
+print(f"grupo {nombregrupo}, creado")
+
+print("Crear un Usuario")
+print("Codigo: useradd nombre-Usuario ")
+nombreusuario = input()
+print(f"Usuario {nombreusuario}, creado")
+
+print("Agregar Usuario a un grupo")
+print("Codigo: adduser nombre-usuario nombre-grupo ")
+nombreusuario = input()
+nombregrupo = input()
+print(f"Usuario {nombreusuario}, fue agregado al grupo {nombregrupo}")
+
+print("Cambiar nombre a un grupo")
+print("Codigo: groupmod -g nuevo-gid -n nuevo-nombre nombre-grupo ")
+nombregruponuevo = input()
+nombregrupo = input()
+print(f"{nombregrupo} fue cambiado a {nombregruponuevo}  ")
